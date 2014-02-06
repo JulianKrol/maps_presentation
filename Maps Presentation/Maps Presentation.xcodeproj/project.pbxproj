@@ -10,6 +10,7 @@
 		6B041065CD2C9882A06062C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B041BE96E4856A03C854C65 /* UIKit.framework */; };
 		6B0410913B9FF0D54A37823C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B041F7DE3E164174A731566 /* InfoPlist.strings */; };
 		6B0411C5BA2000B7B74B3DEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0419D5C107E937522DF2BE /* CoreGraphics.framework */; };
+		6B0415800B4A5D9749CB6B0A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0410BDF6B68D5DE74CC06D /* MapViewController.m */; };
 		6B04174BB3DCEE1E24D345EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0411219400CACA42F8836B /* Foundation.framework */; };
 		6B0418C0A803230132AFECE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B041670E7C1964C10494714 /* InfoPlist.strings */; };
 		6B0419733760C3621D6EAD99 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B041B9665D9BA0865ECB94D /* JKAppDelegate.m */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		6B04102BE84C9C9A62A675D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B0410917DD3DB49C5569774 /* Maps Presentation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "Maps Presentation-Info.plist"; sourceTree = "<group>"; };
+		6B0410BDF6B68D5DE74CC06D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		6B0411219400CACA42F8836B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6B0411E410AFBC480A0053B2 /* Maps_PresentationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maps_PresentationTests.m; sourceTree = "<group>"; };
 		6B0412E95408CE0E93C98288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		6B041B46A57A7863973242CD /* Maps Presentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maps Presentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B041B9665D9BA0865ECB94D /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
 		6B041BE96E4856A03C854C65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B041C402CEE1457C10C7BA0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		6B041F010C34C929482217DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,8 +143,18 @@
 				6B0417678A7C1DC3CF4F357B /* JKAppDelegate.h */,
 				6B041B9665D9BA0865ECB94D /* JKAppDelegate.m */,
 				6B041F010C34C929482217DC /* Images.xcassets */,
+				6B041D461E7F7BC37B314E44 /* Controllers */,
 			);
 			path = "Maps Presentation";
+			sourceTree = "<group>";
+		};
+		6B041D461E7F7BC37B314E44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B041C402CEE1457C10C7BA0 /* MapViewController.h */,
+				6B0410BDF6B68D5DE74CC06D /* MapViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +256,7 @@
 			files = (
 				6B041C89BAC8F7081A3EAFC6 /* main.m in Sources */,
 				6B0419733760C3621D6EAD99 /* JKAppDelegate.m in Sources */,
+				6B0415800B4A5D9749CB6B0A /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
