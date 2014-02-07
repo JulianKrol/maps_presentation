@@ -20,6 +20,7 @@
 		6B041B602F0C0A414B79FACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B041F010C34C929482217DC /* Images.xcassets */; };
 		6B041BAAD2D0AB2DCB17BC79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0411219400CACA42F8836B /* Foundation.framework */; };
 		6B041C89BAC8F7081A3EAFC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0412E95408CE0E93C98288 /* main.m */; };
+		6B041D484326055A5F66F978 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B041CD1984C4953D207E6E6 /* MyAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		6B0414C14F2606ED71D41553 /* Maps PresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maps PresentationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B041745909E34DFC0633DD1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6B0417678A7C1DC3CF4F357B /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		6B04191659BB1CEEEC70AC6A /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
 		6B0419D5C107E937522DF2BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6B041A42E1D8596CA54B9442 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B041A6C30416036A9797883 /* Maps Presentation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maps Presentation-Prefix.pch"; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		6B041B9665D9BA0865ECB94D /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
 		6B041BE96E4856A03C854C65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6B041C402CEE1457C10C7BA0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6B041CD1984C4953D207E6E6 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 		6B041F010C34C929482217DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +121,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6B0418A2C2BB3717FA5C7972 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B04191659BB1CEEEC70AC6A /* MyAnnotation.h */,
+				6B041CD1984C4953D207E6E6 /* MyAnnotation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6B04197774BF977ECE08CE93 /* Maps PresentationTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +156,7 @@
 				6B041B9665D9BA0865ECB94D /* JKAppDelegate.m */,
 				6B041F010C34C929482217DC /* Images.xcassets */,
 				6B041D461E7F7BC37B314E44 /* Controllers */,
+				6B0418A2C2BB3717FA5C7972 /* Model */,
 			);
 			path = "Maps Presentation";
 			sourceTree = "<group>";
@@ -257,6 +270,7 @@
 				6B041C89BAC8F7081A3EAFC6 /* main.m in Sources */,
 				6B0419733760C3621D6EAD99 /* JKAppDelegate.m in Sources */,
 				6B0415800B4A5D9749CB6B0A /* MapViewController.m in Sources */,
+				6B041D484326055A5F66F978 /* MyAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
